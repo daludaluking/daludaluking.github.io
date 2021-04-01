@@ -17,9 +17,9 @@ baseurl: ""
 #    style: compressed
 #    sass_dir: css
 #
-#navbar:
-# - name: "About"
-#   link: "about"
+navbar:
+ - name: "tags"
+   link: "tags"
 # - name: "Resume"
 #   absolute-link: "https://pro-panda.github.io/resume.pdf"
 #
