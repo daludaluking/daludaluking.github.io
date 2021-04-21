@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preparing local development env (1)
+title: Set up development env (1)
 subtitle: preparing local development environment to build and deploy eosio smart contracts
 tags: [eosio, markdown]
 ---
@@ -115,6 +115,7 @@ EOS5nFzT62pCx2aPfC3u752oMaRmXt64zWXR3jUron1TP5DjMV6mG : cleos wallet create_key�
 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV : cleos wallet import로 생성된 public key
 
 > cleos wallet private_keys 명령어로 public / private key 쌍을 모두 볼 수 있다.
+
 ```bash
 ~$ cleos wallet private_keys
 password: [[
