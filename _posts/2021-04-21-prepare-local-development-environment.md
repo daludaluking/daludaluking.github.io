@@ -53,7 +53,14 @@ Wallets:
 ### import keys into a wallet
 
 wallet을 open한 상태에서 진행해야 함. open된 지갑에 keys를 import한다.
+keys는 일반적으로 public key와 private key의 쌍이다.
 
+private key 하나를 생성한다.
+
+```bash
+~$ cleos wallet create_key
+Created new private key with a public key of: "EOS5nFzT62pCx2aPfC3u752oMaRmXt64zWXR3jUron1TP5DjMV6mG"
+```
 
 ### import the development key into wallet
  
@@ -86,6 +93,7 @@ eosio account의 owner/active public key에 해당하는 private key는 아래�
 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 ```
 
+이미 생성된 private key이므로 생성하지는 않는다.
 private key를 wallet에 import한다.
 
 ```bash
@@ -94,4 +102,28 @@ private key:
 ```
 
 ### keys 확인
+
+```bash
+~$ cleos wallet keys
+[
+  "EOS5nFzT62pCx2aPfC3u752oMaRmXt64zWXR3jUron1TP5DjMV6mG",
+  "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+]
+```
+
+EOS5nFzT62pCx2aPfC3u752oMaRmXt64zWXR3jUron1TP5DjMV6mG : cleos wallet create_key로 생성된 public key
+EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV : cleos wallet import로 생성된 public key
+
+> cleos wallet private_keys 명령어로 public / private key 쌍을 모두 볼 수 있다.
+```bash
+~$ cleos wallet private_keys
+password: [[
+    "EOS5nFzT62pCx2aPfC3u752oMaRmXt64zWXR3jUron1TP5DjMV6mG",
+    "5JFUfP9F5YoK4i8PBDonduVH9isRENNBtTSrfEfGpAprGmGJYto"
+  ],[
+    "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+    "5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"
+  ]
+]
+```
 
