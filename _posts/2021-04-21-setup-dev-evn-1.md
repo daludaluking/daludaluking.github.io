@@ -111,8 +111,8 @@ private key:
 ]
 ```
 
-EOS5nFzT62pCx2aPfC3u752oMaRmXt64zWXR3jUron1TP5DjMV6mG : cleos wallet create_key로 생성된 public key
-EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV : cleos wallet import로 생성된 public key
+* EOS5nFzT62pCx2aPfC3u752oMaRmXt64zWXR3jUron1TP5DjMV6mG : cleos wallet create_key로 생성된 public key
+* EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV : cleos wallet import로 생성된 public key
 
 > cleos wallet private_keys 명령어로 public / private key 쌍을 모두 볼 수 있다.
 
