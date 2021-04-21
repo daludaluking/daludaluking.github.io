@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preparing local development env
+title: Preparing local development env (1)
 subtitle: preparing local development environment to build and deploy eosio smart contracts
 tags: [eosio, markdown]
 ---
@@ -126,4 +126,3 @@ password: [[
   ]
 ]
 ```
-
